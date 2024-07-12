@@ -1,0 +1,34 @@
+.font-family-size {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+.center-align {
+  text-align: center;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.line-height {
+  line-height: 3;
+}
+.letter-spacing {
+  letter-spacing: 5px;
+}
+.text-shadow {
+  /*
+    1st Value - horizontal value
+    2nd Value - vertical value
+    3rd Value - blur effect
+    4th Value - color 
+    */
+  text-shadow: 10px 20px 3px rgba(0, 121, 142, 0.5);
+}

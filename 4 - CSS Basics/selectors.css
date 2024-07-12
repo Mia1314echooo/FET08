@@ -1,0 +1,57 @@
+/*Element Selector */
+
+span {
+  color: rgb(35, 163, 243);
+}
+
+/*Class Selector (. + class_name)*/
+.class-name {
+  color: purple;
+}
+
+/*ID Selector (# + id_name)*/
+#id-name {
+  color: skyblue;
+}
+
+/* Universal Selector */
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: palevioletred;
+}
+
+/* Attributes Selector */
+/* targetting element with thee href attribute */
+[href] {
+  color: rgba(2, 174, 25, 0.997);
+}
+h3[href] {
+  color: rgb(255, 197, 61);
+}
+/* Grouping Selector */
+h1,
+h2,
+.parag {
+  color: darkorange;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Descendants Selector */
+.ancestor h3 {
+  color: red;
+}
+
+/*Psued0o-class Selector */
+
+button:hover {
+  background-color: chartreuse;
+}
+
+/* Pseudo-Elements Selector (::) */
+#pseudo-element::after {
+  content: " Placed after the h3 tag ";
+}
+#pseudo-element::first-letter {
+  color: brown;
+}
